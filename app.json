@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/myApp/myApp",
+    "pages/index/index",
+    "pages/kmg/kmg",
+    "pages/logs/logs"
+    
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fe3453",
+    "navigationBarTitleText": "littleApp",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#eeeeee",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":50,
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    }
+  
+  },
+      "tabBar": {
+        "color": "#fff",
+        "selectedColor": "#000",
+        "backgroundColor": "#fe3453",
+        "borderStyle": "black",
+        "position": "bottom",
+        "list": [
+          {
+            "pagePath": "pages/myApp/myApp",
+            "text": "首页",
+            "iconPath":"/img/ic_fx@2x.png",
+            "selectedIconPath": "/img/ic_fx@2x.png"
+          },
+          {
+            "pagePath": "pages/index/index",
+            "text": "用户",
+            "iconPath": "/img/ic_fx@2x.png",
+            "selectedIconPath": "/img/ic_fx@2x.png"
+          },
+          {
+            "pagePath": "pages/logs/logs",
+            "text": "日志",
+            "iconPath": "/img/ic_fx@2x.png",
+            "selectedIconPath": "/img/ic_fx@2x.png"
+          }
+        ]
+      },
+        "debug": true
+}
