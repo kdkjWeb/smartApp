@@ -1,3 +1,4 @@
+
 <view class='container'>
     <text catch:tap="deleteOneData">删除</text>
     <view class="workerSchame"
@@ -7,4 +8,25 @@
                       catch:refuseWorker="refuseWorker"></workerSchema>
     </view>
     
+<!-- <view class='myApp'>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+  </swiper>
+  <view class="tabBar2" >
+    <block wx:for="{{tabBar2List}}">
+      <view class="tabBarList {{(index===itemNum)?'tabBarListAfter':''}}" 
+      data-num='{{index}}' 
+      bindtap='bindColor'>
+        {{item.text}}
+        <i wx:if="{{index==2}}" class=" iconfont {{itemTop? 'icon-jiantouxia':'icon-jiantoushang'}}"></i>
+  
+      </view>
+      
+    </block>
+  </view> -->
 </view>

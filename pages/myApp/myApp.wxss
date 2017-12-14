@@ -1,5 +1,36 @@
+@import "../../utils/fonts/iconfont.wxss";
 .myApp {
   width:100%;
   height:1000px;
   background-color: #fff;
+}
+.slide-image {
+  width:100%;
+  height:200px;
+}
+.tabBar2 {
+  width:100%;
+  display: flex;
+  border-top:1px solid #dfdfdf;
+  border-bottom:1px solid #dfdfdf;
+  height:20px;
+  padding:10px 0;
+   line-height:20px; 
+  color:#333;
+}
+.tabBarList {
+  flex:1;
+  height:20px;
+  border-right:1px solid #dfdfdf;
+  font-size:12px;
+  text-align: center;
+}
+.tabBarList:last-child{
+  border:none;
+}
+.tabBarList i {
+  font-size:12px;
+}
+.tabBarListAfter {
+  color:#fe3453;
 }

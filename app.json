@@ -8,12 +8,12 @@
    
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fe3453",
     "navigationBarTitleText": "littleApp",
     "navigationBarTextStyle": "black",
-    "backgroundColor":"#eeeeee",
-    "enablePullDownRefresh":true,
+    "backgroundColor":"black",
+    "enablePullDownRefresh":true,  
     "onReachBottomDistance":50,
     "networkTimeout": {
       "request": 10000,
@@ -22,8 +22,8 @@
   
   },
       "tabBar": {
-        "color": "#fff",
-        "selectedColor": "#000",
+        "color": "#8a8a8a",
+        "selectedColor": "#fff",
         "backgroundColor": "#fe3453",
         "borderStyle": "black",
         "position": "bottom",
@@ -31,20 +31,20 @@
           {
             "pagePath": "pages/myApp/myApp",
             "text": "首页",
-            "iconPath":"/img/ic_fx@2x.png",
-            "selectedIconPath": "/img/ic_fx@2x.png"
+            "iconPath":"/img/oneA.png",
+            "selectedIconPath": "/img/one.png"
           },
           {
             "pagePath": "pages/index/index",
             "text": "用户",
-            "iconPath": "/img/ic_fx@2x.png",
-            "selectedIconPath": "/img/ic_fx@2x.png"
+            "iconPath": "/img/twoA.png",
+            "selectedIconPath": "/img/two.png"
           },
           {
             "pagePath": "pages/logs/logs",
             "text": "日志",
-            "iconPath": "/img/ic_fx@2x.png",
-            "selectedIconPath": "/img/ic_fx@2x.png"
+            "iconPath": "/img/threeA.png",
+            "selectedIconPath": "/img/three.png"
           }
         ]
       },
