@@ -17,7 +17,7 @@ Page({
   },
   toMyindex:function(){
     wx.navigateTo({
-      url: '../kmg/kmg'
+      url: '../logs/logs'
     })
   },
   onLoad: function () {
