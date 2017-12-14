@@ -4,7 +4,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+     workers:[
+       {
+          name: "张三",
+          age: 30,
+          gender: "male",
+          mainType: "搬砖",
+          credit: "4.7",
+          technology: "5.0"
+       },
+       {
+          name: "李四",
+          age: 20,
+          gender: "female",
+          mainType: "挖洞",
+          credit: "4.7",
+          technology: "5.0"
+       },
+       {
+          name: "王麻子",
+          age: 39,
+          gender: "male",
+          mainType: "搬砖",
+          credit: "4.7",
+          technology: "5.0"
+       }
+     ]
+  },
+
+  refuseWorker(index) {
+    let workers = Object.assign([], this.data.workers)
+    workers.splice(index,1)
+    this.setData({
+      workers: workers
+    })
   },
 
   /**

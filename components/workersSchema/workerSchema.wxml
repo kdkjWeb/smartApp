@@ -1,0 +1,40 @@
+<!--components/workersSchema/workerSchema.wxml-->
+<!-- 工人概要 -->
+<view class="container"
+      animation="{{animationData}}">
+  <view class="workerBox"
+        hover-class="container_hover"
+        hover-start-time="100"
+        hover-stay-time="100"
+        hover="true"
+        catch:tap="enterDetail">
+    <view class="photo">
+        <image src="{{header}}"
+              mode="{{mode||'aspectFill'}}" ></image>
+    </view>
+    <view class="info">
+        <view class="name">
+            <text>姓名: {{model.name}}</text>
+        </view>
+        <view class="otherInfo">
+            <text style="margin-right:20rpx">年龄: {{model.age}}</text>
+            <text>性别: {{ model.gender == 'male'?'男':'女'}}</text>
+        </view>
+        <view class="mainType">
+            <text>主工种: {{model.mainType}}</text>
+        </view>
+        <view class="credit">
+            <text>信用评分: {{model.credit}}</text>
+        </view>
+        <view class="technology">
+            <text>技术评分: {{model.technology}}</text>
+        </view>
+    </view>
+    <view class="options">
+        <icon type="success"
+              catch:tap="receive"></icon>
+        <icon type="cancel"
+              catch:tap="refuse"></icon>
+    </view>
+  </view>
+</view>

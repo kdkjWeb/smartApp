@@ -1,2 +1,10 @@
-<view class='myApp'>
+<view class='container'>
+    <text catch:tap="deleteOneData">删除</text>
+    <view class="workerSchame"
+          wx:for="{{workers}}"
+          wx:key="name">
+        <workerSchema model="{{item}}"
+                      catch:refuseWorker="refuseWorker"></workerSchema>
+    </view>
+    
 </view>

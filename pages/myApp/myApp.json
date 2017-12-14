@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents":{
+    "workerSchema":"../../components/workersSchema/workerSchema"
+  }
+}
